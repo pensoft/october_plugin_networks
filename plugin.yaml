@@ -1,0 +1,11 @@
+plugin:
+    name: 'pensoft.networks::lang.plugin.name'
+    description: 'pensoft.networks::lang.plugin.description'
+    author: Pensoft
+    icon: icon-empire
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Networks
+        url: pensoft/networks/networks
+        icon: icon-empire

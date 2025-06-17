@@ -1,0 +1,13 @@
+1.0.1: 'First version of Networks'
+1.0.2:
+    - 'Created table pensoft_networks_events_pivot'
+    - builder_table_create_pensoft_networks_events_pivot.php
+1.0.3:
+    - 'Created table pensoft_networks_data'
+    - builder_table_create_pensoft_networks_data.php
+1.0.4:
+    - 'Updated table pensoft_networks_data'
+    - builder_table_update_pensoft_networks_data.php
+1.0.5:
+    - 'Updated table pensoft_networks_data'
+    - builder_table_update_pensoft_networks_data_2.php

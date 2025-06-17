@@ -1,0 +1,12 @@
+list: $/pensoft/networks/models/data/columns.yaml
+modelClass: Pensoft\Networks\Models\Data
+title: Networks
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'pensoft/networks/networks/update/:id'

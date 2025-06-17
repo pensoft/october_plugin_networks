@@ -1,0 +1,4 @@
+title: Networks
+modelClass: Pensoft\Networks\Models\Data
+toolbar:
+    buttons: reorder_toolbar

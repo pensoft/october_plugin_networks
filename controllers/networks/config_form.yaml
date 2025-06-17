@@ -1,0 +1,10 @@
+name: Networks
+form: $/pensoft/networks/models/data/fields.yaml
+modelClass: Pensoft\Networks\Models\Data
+defaultRedirect: pensoft/networks/networks
+create:
+    redirect: 'pensoft/networks/networks/update/:id'
+    redirectClose: pensoft/networks/networks
+update:
+    redirect: pensoft/networks/networks
+    redirectClose: pensoft/networks/networks

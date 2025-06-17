@@ -1,0 +1,87 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    icon:
+        label: Icon
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    about:
+        label: About
+        size: large
+        span: auto
+        type: richeditor
+    about_image:
+        label: 'About image'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    slug:
+        label: Slug
+        span: right
+        preset:
+            field: title
+            type: slug
+        type: text
+    get_in_touch_url:
+        label: 'Get in touch url'
+        span: auto
+        type: text
+        comment: 'Become a part of the network link'
+    knowege_requests:
+        label: 'Knowege requests'
+        span: auto
+        type: repeater
+        form:
+            fields:
+                type:
+                    label: Type
+                    span: auto
+                    type: text
+                title:
+                    label: Title
+                    span: auto
+                    type: text
+                coordinator:
+                    label: Coordinator
+                    span: auto
+                    type: text
+                estimate:
+                    label: 'Estimated submission'
+                    span: auto
+                    type: text
+                status:
+                    label: Status
+                    span: auto
+                    type: text
+    event:
+        label: 'Related events'
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    files:
+        label: 'Publications and key documents'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    news_category:
+        label: 'Related news category'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
