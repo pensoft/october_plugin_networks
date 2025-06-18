@@ -3,15 +3,13 @@ fields:
         label: Title
         span: auto
         type: text
-    icon:
-        label: Icon
-        mode: image
-        useCaption: true
-        thumbOptions:
-            mode: crop
-            extension: auto
+    slug:
+        label: Slug
         span: auto
-        type: fileupload
+        preset:
+            field: title
+            type: slug
+        type: text
     about:
         label: About
         size: large
@@ -26,18 +24,40 @@ fields:
             extension: auto
         span: auto
         type: fileupload
-    slug:
-        label: Slug
-        span: right
-        preset:
-            field: title
-            type: slug
-        type: text
+    about2:
+        label: 'About info (additional)'
+        size: large
+        span: auto
+        type: richeditor
+    about_image2:
+        label: 'About image (additional)'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    news_category:
+        label: 'Related news category'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
     get_in_touch_url:
         label: 'Get in touch url'
         span: auto
         type: text
         comment: 'Become a part of the network link'
+    icon:
+        label: Icon
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
     knowege_requests:
         label: 'Knowege requests'
         span: auto
@@ -79,9 +99,3 @@ fields:
             extension: auto
         span: auto
         type: fileupload
-    news_category:
-        label: 'Related news category'
-        nameFrom: name
-        descriptionFrom: description
-        span: auto
-        type: relation

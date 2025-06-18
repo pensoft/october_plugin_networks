@@ -34,6 +34,7 @@ class Data extends Model
 
     public $attachOne = [
         'about_image' => 'System\Models\File',
+        'about_image2' => 'System\Models\File',
         'icon' => 'System\Models\File',
     ];
 
