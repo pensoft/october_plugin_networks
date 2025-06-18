@@ -2,3 +2,9 @@ title: Networks
 modelClass: Pensoft\Networks\Models\Data
 toolbar:
     buttons: reorder_toolbar
+
+# Key column name to use for the sort order
+orderColumn: sort_order
+
+# The attribute on the model to use for the display name
+nameFrom: title
