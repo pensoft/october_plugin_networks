@@ -99,3 +99,9 @@ fields:
             extension: auto
         span: auto
         type: fileupload
+    partner:
+        label: 'Related partners'
+        nameFrom: instituion
+        descriptionFrom: description
+        span: auto
+        type: relation

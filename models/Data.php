@@ -54,5 +54,12 @@ class Data extends Model
             'otherKey' => 'event_id',
             'order' => 'title desc'
         ],
+        'partner' => [
+            'Pensoft\Partners\Models\Partners',
+            'table' => 'pensoft_networks_partners_pivot',
+            'key' => 'network_id',
+            'otherKey' => 'partner_id',
+            'order' => 'instituion desc'
+        ],
     ];
 }
