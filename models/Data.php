@@ -52,7 +52,7 @@ class Data extends Model
             'table' => 'pensoft_networks_events_pivot',
             'key' => 'network_id',
             'otherKey' => 'event_id',
-            'order' => 'title desc'
+            'order' => 'start desc'
         ],
         'partner' => [
             'Pensoft\Partners\Models\Partners',

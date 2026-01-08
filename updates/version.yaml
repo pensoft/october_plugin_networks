@@ -19,3 +19,5 @@
 1.0.8:
     - 'Created table pensoft_networks_partners_pivot'
     - builder_table_create_pensoft_networks_partners_pivot.php
+1.0.9:
+    - 'Events order by start date desc'
