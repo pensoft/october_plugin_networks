@@ -40,6 +40,8 @@ class Data extends Model
 
     public $attachMany = [
         'files' => 'System\Models\File',
+        'framework_images' => 'System\Models\File',
+        'socian_media_images' => 'System\Models\File',
     ];
 
     public $belongsTo = [
