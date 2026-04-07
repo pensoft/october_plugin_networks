@@ -1,0 +1,29 @@
+1.0.1: 'First version of Networks'
+1.0.2:
+    - 'Created table pensoft_networks_events_pivot'
+    - builder_table_create_pensoft_networks_events_pivot.php
+1.0.3:
+    - 'Created table pensoft_networks_data'
+    - builder_table_create_pensoft_networks_data.php
+1.0.4:
+    - 'Updated table pensoft_networks_data'
+    - builder_table_update_pensoft_networks_data.php
+1.0.5:
+    - 'Updated table pensoft_networks_data'
+    - builder_table_update_pensoft_networks_data_2.php
+1.0.6:
+    - 'Sort order fix'
+1.0.7:
+    - 'Updated table pensoft_networks_data'
+    - builder_table_update_pensoft_networks_data_3.php
+1.0.8:
+    - 'Created table pensoft_networks_partners_pivot'
+    - builder_table_create_pensoft_networks_partners_pivot.php
+1.0.9:
+    - 'Events order by start date desc'
+1.0.10:
+    - 'Updated table pensoft_networks_data'
+    - builder_table_update_pensoft_networks_data_4.php
+
+4.0.1:
+    - 'Migrated to OctoberCMS 4 and PHP 8.2'

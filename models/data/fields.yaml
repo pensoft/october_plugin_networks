@@ -1,0 +1,151 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    about:
+        label: About
+        size: large
+        span: auto
+        type: richeditor
+    about_image:
+        label: 'About image'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    about2:
+        label: 'About info (additional)'
+        size: large
+        span: auto
+        type: richeditor
+    about_image2:
+        label: 'About image (additional)'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    news_category:
+        label: 'Related news category'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    get_in_touch_url:
+        label: 'Get in touch url'
+        span: auto
+        type: text
+        comment: 'Become a part of the network link'
+    icon:
+        label: Icon
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    knowege_requests:
+        label: 'Knowege requests'
+        span: auto
+        type: repeater
+        form:
+            fields:
+                type:
+                    label: Type
+                    span: auto
+                    type: text
+                title:
+                    label: Title
+                    span: auto
+                    type: text
+                coordinator:
+                    label: Coordinator
+                    span: auto
+                    type: text
+                estimate:
+                    label: 'Estimated submission'
+                    span: auto
+                    type: text
+                status:
+                    label: Status
+                    span: auto
+                    type: text
+    event:
+        label: 'Related events'
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    files:
+        label: 'Publications and key documents'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    partner:
+        label: 'Related partners'
+        nameFrom: instituion
+        descriptionFrom: description
+        span: auto
+        type: relation
+tabs:
+    fields:
+        ken_section_title:
+            label: Title
+            span: auto
+            type: text
+            tab: Framework
+        ken_section_description:
+            label: Description
+            size: large
+            span: auto
+            type: richeditor
+            tab: Framework
+        framework_images:
+            label: Graphics
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Framework
+        ken_social_section_title:
+            label: Title
+            span: auto
+            type: text
+            tab: 'Social media campaign'
+        ken_social_section_description:
+            label: Description
+            size: large
+            span: auto
+            type: richeditor
+            tab: 'Social media campaign'
+        socian_media_images:
+            label: Images
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Social media campaign'
