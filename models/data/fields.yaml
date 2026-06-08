@@ -38,6 +38,20 @@ fields:
             extension: auto
         span: auto
         type: fileupload
+    about3:
+        label: 'About info (additional)'
+        size: large
+        span: auto
+        type: richeditor
+    about_image3:
+        label: 'About image (additional)'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
     news_category:
         label: 'Related news category'
         nameFrom: name

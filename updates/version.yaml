@@ -24,3 +24,6 @@
 1.0.10:
     - 'Updated table pensoft_networks_data'
     - builder_table_update_pensoft_networks_data_4.php
+1.0.11:
+    - 'Updated table pensoft_networks_data'
+    - builder_table_update_pensoft_networks_data_5.php
